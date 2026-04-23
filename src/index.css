@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-casino-dark: #050a08;
+  --color-casino-felt: #0a2e1a;
+  --color-casino-edge: #1f1a12;
+  --color-gold: #c5a059;
+}
+
+@layer base {
+  body {
+    @apply bg-casino-dark text-white font-sans overflow-hidden;
+  }
+}
+
+.table-shadow {
+  box-shadow: 0 0 0 4px var(--color-gold), inset 0 0 120px rgba(0,0,0,0.8);
+}
+
+.card-shadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
+
+.action-bar-shadow {
+  box-shadow: 0 -20px 50px rgba(0,0,0,0.5);
+}
