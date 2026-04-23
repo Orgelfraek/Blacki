@@ -1,6 +1,6 @@
 {
-  "name": "Casino Royal: Multiplayer Blackjack",
-  "description": "A high-fidelity local multiplayer Blackjack game for 2-4 players with a sophisticated casino aesthetic.",
+  "name": "Saloon Blackjack",
+  "description": "A Western-themed local multiplayer Blackjack game. No money, just pure saloon grit.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }
